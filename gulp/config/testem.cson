@@ -1,0 +1,21 @@
+{
+	"framework": "mocha"
+	"launch_in_dev": [
+		"chrome"
+		"node"
+	]
+	"launch_in_ci": [
+		"PhantomJS"
+	]
+	"serve_files": [
+		"<%= serve %>"
+	]
+	"src_files": [
+		"<%= serve %>"
+	]
+	"on_exit": "rm -rf <%= dest %>"
+	"launchers":
+		"Node":
+			"command": "./node_modules/.bin/mocha -R tap <%= serve %>"
+			"protocol": "tap"
+}
