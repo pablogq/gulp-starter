@@ -1,6 +1,6 @@
 {
   "name": "gulp-starter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Gulp starter with common tasks for developing JavaScript/CoffeeScript applications.",
   "author": "pablogq",
   "repository": {
@@ -36,5 +36,10 @@
     "testem": "^0.6.17",
     "vinyl-source-stream": "^0.1.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "gulp-autoprefixer": "0.0.8",
+    "gulp-csso": "^0.2.9",
+    "gulp-if": "^1.2.4",
+    "gulp-ruby-sass": "^0.7.1"
+  }
 }
