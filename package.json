@@ -1,6 +1,6 @@
 {
   "name": "gulp-starter",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Gulp starter with common tasks for developing JavaScript/CoffeeScript applications.",
   "author": "pablogq",
   "repository": {
@@ -24,7 +24,7 @@
     "gulp-rename": "^1.2.0",
     "gulp-size": "^0.4.0",
     "gulp-streamify": "^0.0.5",
-    "gulp-template": "^0.1.1",
+    "gulp-template": "^1.0.0",
     "gulp-uglify": "^0.3.0",
     "gulp-util": "^2.2.14",
     "lodash": "^2.4.1",
