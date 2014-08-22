@@ -3,7 +3,6 @@ fork = require('child_process').fork
 gulp = require 'gulp'
 gutil = require 'gulp-util'
 
-gutil.log process.cwd()
 gulp.task 'testem', ['testem:config'], ->
 
   try

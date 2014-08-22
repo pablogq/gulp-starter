@@ -1,4 +1,4 @@
-pkg = require "../../package.json"
+pkg = require '../../package.json'
 
 dest = './dist'
 src = './src'
