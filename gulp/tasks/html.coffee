@@ -9,4 +9,4 @@ gulp.task 'html', ->
   gulp.src("./#{root.src}/**/*.html")
   .pipe(template(package: pkg))
   .pipe(gulp.dest(root.dest))
-  .pipe(size(title: 'copy'))
+  .pipe(size(title: 'html'))

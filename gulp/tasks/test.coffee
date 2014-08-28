@@ -1,5 +1,5 @@
 gulp = require 'gulp'
-runSequence = require 'run-sequence'
+sequence = require 'run-sequence'
 
 gulp.task 'test', (cb) ->
-  runSequence 'concat:tests', 'browserify:tests', 'watch', 'testem', cb
+  sequence 'concat:tests', 'browserify:tests', 'testem', 'watch:tests', cb
