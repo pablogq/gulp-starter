@@ -16,7 +16,7 @@ module.exports =
     dest: "#{dest}/js"
     bundled: "#{pkg.name}.js"
     minified: "#{pkg.name}.min.js"
-    watch: ["./#{src}/scripts/**/*.coffee"]
+    watch: ["#{src}/scripts/**/*.coffee"]
 
   styles:
     src: ["#{src}/styles/**/*.{sass,scss,css}"]
@@ -30,4 +30,9 @@ module.exports =
     setup: ["#{tests}/setup/**/*.coffee"]
     dest: "#{tests}/build/"
     bundled: 'tests.bundled.js'
-    watch: ["./#{tests}/**/*.coffee", "./#{src}/scripts/**/*.coffee"]
+    watch: ["#{tests}/**/*.coffee", "#{src}/scripts/**/*.coffee"]
+
+  images:
+    src: ["#{src}/images/**/*"]
+    dest: "#{dest}/images"
+    watch: ["#{src}/images/**/*"]
