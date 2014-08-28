@@ -27,6 +27,7 @@
     "gulp-template": "^1.0.0",
     "gulp-uglify": "^0.3.0",
     "gulp-util": "^2.2.14",
+    "gulp-watch": "^0.6.9",
     "lodash": "^2.4.1",
     "mocha": "^1.20.1",
     "require-dir": "^0.1.0",
